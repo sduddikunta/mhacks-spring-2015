@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout>
+        <TextView
+            android:id="@+id/table_company"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Toyota Motor Corp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:paddingRight="3dip"
+            android:paddingBottom="3dip"
+            android:paddingTop="3dip"/>
+        <TextView
+            android:id="@+id/table_symbol"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="TM"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="left"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/table_price"
+        android:text="$109.52"
+        android:textSize="16sp"
+        android:layout_gravity="center_vertical"
+        android:gravity="right"/>
+</TableRow>
